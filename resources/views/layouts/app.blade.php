@@ -21,11 +21,6 @@
             font-family: 'Quicksand', sans-serif;
         }
 
-        footer {
-            background-color: rgba(128, 255, 0, 0.596);
-
-        }
-
         .form-switch {
             display: flex !important;
             /* flex-direction: row-reverse !important; */
@@ -57,7 +52,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item d-none d-lg-block disabled"><span class="nav-link disabled">⋮</span></li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="/"><i class="fa fa-lightbulb"> </i> LAMPU</a>
+                        <a class="nav-link fw-bold" href="/"><i class="fa-solid fa-plug-circle-bolt"> </i> Device</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fw-bold" href="/histories"><i class="fa fa-line-chart"> </i> HISTORY</a>
@@ -69,9 +64,9 @@
 
     @yield('content')
 
-    <footer class="footer mt-auto py-3 fixed-bottom">
-        <div class="container text-center text-light">
-            <span class="text-muted">Smart Home System. SMK Muhammadiyah 2 Genteng</span>
+    <footer class="footer mt-auto py-3 fixed-bottom bg-light text-xl-star fw-bold">
+        <div class="container text-center">
+            <span class="text-muted">Smart Home Teknik Elektronika Industri. SMK Muhammadiyah 2 Genteng@</span>
         </div>
     </footer>
 
